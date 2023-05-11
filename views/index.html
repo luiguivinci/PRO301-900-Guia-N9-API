@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRO301 - Guia para consumir API</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!-- bootstrap CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- css responsive -->
+    <link rel="stylesheet" href="../assets/css/mobile.css" />
+  </head>
+  <body>
+    <!-- Encabezado (header) -->
+    <header class="bg-primary text-white text-center py-2">
+      <h1>PRO301 - Guia para consumir API</h1>
+      <h5>
+        <a
+          href="https://github.com/luiguivinci/PRO301-900-Guia-N8"
+          class="btn btn-dark"
+          >Repositorio en GitHub</a
+        >
+      </h5>
+      <p class="font-weight-bolder">Luigui N. Vinci</p>
+    </header>
+
+    <!-- Contenido Principal (main) -->
+    <main class="container my-5">
+      <h2></h2>
+      <p></p>
+
+      <!-- Parte 1 (section) -->
+      <section class="my-5 row">
+        <!-- Botón para traer datos de la api -->
+        <input
+          type="button"
+          id="btnTraerDatos"
+          class="btn btn-primary mt-3 mb-2 text-center"
+          value="TRAER DATOS"
+        />
+
+        <!-- Tabla para recibir datos obtenidos -->
+        <table
+          id="tablaDeDatos"
+          class="table table-primary table-responsive"
+          border="1"
+        ></table>
+      </section>
+    </main>
+
+    <!-- Pie de Página (footer) -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>
+        &copy; Developed by
+        <a href="https://github.com/luiguivinci" target="_blank"
+          ><b id="devTag">Luigui N. Vinci</b></a
+        >
+        All rights reserved<b id="actualYear"> | 2023</b>
+      </p>
+    </footer>
+
+    <!-- script -->
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/functions/getApiData.js"></script>
+  </body>
+</html>
